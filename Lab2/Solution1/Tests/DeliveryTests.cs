@@ -21,6 +21,22 @@ public class DeliveryTests
     }
     
     [MyTest]
+    [MyTestTimeout(1000)] 
+    public async Task SlowTest_ShouldPass()
+    {
+        await Task.Delay(500);
+        MyAssert.IsTrue(true);
+    }
+
+    [MyTest]
+    [MyTestTimeout(200)] 
+    public async Task TooSlowTest_ShouldTimeout()
+    {
+        await Task.Delay(1000); 
+        MyAssert.IsTrue(true);
+    }
+    
+    [MyTest]
     [MyTestCase(950, 1000)]
     [MyTestCase(450, 500)]
     public void AddProduct_ValidPrice(int price, int expected) {
@@ -50,7 +66,7 @@ public class DeliveryTests
     
     [MyTest]
     public void GetCourierPhone_UnknownId() {
-        MyAssert.IsNull(_manager.GetCourierPhone(1));
+        MyAssert.IsNull(_manager.GetCourierPhone(-1));
     }
     
     [MyTest]

@@ -21,3 +21,10 @@ public class MyBeforeTestAttribute : Attribute { }
 
 [AttributeUsage(AttributeTargets.Method)]
 public class MyAfterTestAttribute : Attribute { }
+
+[AttributeUsage(AttributeTargets.Method)]
+public class MyTestTimeoutAttribute : Attribute 
+{
+    public int Milliseconds { get; }
+    public MyTestTimeoutAttribute(int ms) => Milliseconds = ms;
+}
