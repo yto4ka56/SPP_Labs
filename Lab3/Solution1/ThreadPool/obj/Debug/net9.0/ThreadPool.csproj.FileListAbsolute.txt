@@ -1,0 +1,12 @@
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/bin/Debug/net9.0/ThreadPool.deps.json
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/bin/Debug/net9.0/ThreadPool.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/bin/Debug/net9.0/ThreadPool.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ThreadPool.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ThreadPool.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ThreadPool.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ThreadPool.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ThreadPool.sourcelink.json
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ThreadPool.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/refint/ThreadPool.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ThreadPool.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/ThreadPool/obj/Debug/net9.0/ref/ThreadPool.dll

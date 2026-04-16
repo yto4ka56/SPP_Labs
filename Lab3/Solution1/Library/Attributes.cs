@@ -1,4 +1,4 @@
-﻿namespace Library;
+namespace Library;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class MyTestClassAttribute : Attribute { }
@@ -6,7 +6,7 @@ public class MyTestClassAttribute : Attribute { }
 [AttributeUsage(AttributeTargets.Method)]
 public class MyTestAttribute : Attribute 
 {
-    public string Skip { get; set; } 
+    public string? Skip { get; set; } 
 }
 
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]

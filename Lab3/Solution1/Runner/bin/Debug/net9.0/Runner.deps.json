@@ -9,7 +9,8 @@
       "Runner/1.0.0": {
         "dependencies": {
           "Library": "1.0.0",
-          "Tests": "1.0.0"
+          "Tests": "1.0.0",
+          "ThreadPool": "1.0.0"
         },
         "runtime": {
           "Runner.dll": {}
@@ -42,6 +43,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ThreadPool/1.0.0": {
+        "runtime": {
+          "ThreadPool.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -62,6 +71,11 @@
       "sha512": ""
     },
     "Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThreadPool/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
