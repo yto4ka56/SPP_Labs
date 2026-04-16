@@ -22,3 +22,15 @@
 /Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/refint/BusinessLogic.dll
 /Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.pdb
 /Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/ref/BusinessLogic.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/bin/Debug/net9.0/BusinessLogic.deps.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/bin/Debug/net9.0/BusinessLogic.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/bin/Debug/net9.0/BusinessLogic.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.sourcelink.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/refint/BusinessLogic.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/BusinessLogic.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab2/Solution1/BusinessLogic/obj/Debug/net9.0/ref/BusinessLogic.dll

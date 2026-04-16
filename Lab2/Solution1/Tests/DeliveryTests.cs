@@ -32,7 +32,7 @@ public class DeliveryTests
     [MyTestTimeout(200)] 
     public async Task TooSlowTest_ShouldTimeout()
     {
-        await Task.Delay(1000); 
+        await Task.Delay(100000); 
         MyAssert.IsTrue(true);
     }
     
