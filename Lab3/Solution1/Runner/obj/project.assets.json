@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        }
+      },
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
+      },
+      "Tests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "BusinessLogic": "1.0.0",
+          "Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tests.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic/BusinessLogic.csproj",
+      "msbuildProject": "../BusinessLogic/BusinessLogic.csproj"
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
+    },
+    "Tests/1.0.0": {
+      "type": "project",
+      "path": "../Tests/Tests.csproj",
+      "msbuildProject": "../Tests/Tests.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Library >= 1.0.0",
+      "Tests >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/maksimbelaev/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Runner/Runner.csproj",
+      "projectName": "Runner",
+      "projectPath": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Runner/Runner.csproj",
+      "packagesPath": "/Users/maksimbelaev/.nuget/packages/",
+      "outputPath": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Runner/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/maksimbelaev/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/Library.csproj": {
+              "projectPath": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/Library.csproj"
+            },
+            "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/Tests.csproj": {
+              "projectPath": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/Tests.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
