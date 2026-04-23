@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/Library.csproj": {}
+    "/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/Library.csproj": {}
   },
   "projects": {
-    "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/Library.csproj": {
+    "/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/Library.csproj",
+        "projectUniqueName": "/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/Library.csproj",
         "projectName": "Library",
-        "projectPath": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/Library.csproj",
+        "projectPath": "/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/Library.csproj",
         "packagesPath": "/Users/maksimbelaev/.nuget/packages/",
-        "outputPath": "/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/",
+        "outputPath": "/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/maksimbelaev/.nuget/NuGet/NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

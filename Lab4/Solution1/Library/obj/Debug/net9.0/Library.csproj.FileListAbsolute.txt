@@ -1,0 +1,36 @@
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/bin/Debug/net9.0/Library.deps.json
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/bin/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/bin/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/Library.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/Library.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/Library.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/Library.sourcelink.json
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/refint/Library.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Library/obj/Debug/net9.0/ref/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/bin/Debug/net9.0/Library.deps.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/bin/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/bin/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/Library.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/Library.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/Library.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/Library.sourcelink.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/refint/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Library/obj/Debug/net9.0/ref/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/bin/Debug/net9.0/Library.deps.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/bin/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/bin/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/Library.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/Library.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/Library.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/Library.sourcelink.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/refint/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Library/obj/Debug/net9.0/ref/Library.dll

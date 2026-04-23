@@ -1,0 +1,54 @@
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/bin/Debug/net9.0/Tests.deps.json
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/bin/Debug/net9.0/Tests.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/bin/Debug/net9.0/Tests.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/bin/Debug/net9.0/BusinessLogic.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/bin/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/bin/Debug/net9.0/BusinessLogic.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/bin/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.AssemblyReference.cache
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.sourcelink.json
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.Up2Date
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/refint/Tests.dll
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.pdb
+/Users/maksimbelaev/Documents/SPP_Labs/SPP_Labs/Lab3/Solution1/Tests/obj/Debug/net9.0/ref/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/bin/Debug/net9.0/Tests.deps.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/bin/Debug/net9.0/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/bin/Debug/net9.0/Tests.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/bin/Debug/net9.0/BusinessLogic.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/bin/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/bin/Debug/net9.0/BusinessLogic.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/bin/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.AssemblyReference.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.sourcelink.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.Up2Date
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/refint/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/Tests.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab3/Solution1/Tests/obj/Debug/net9.0/ref/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/bin/Debug/net9.0/Tests.deps.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/bin/Debug/net9.0/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/bin/Debug/net9.0/Tests.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/bin/Debug/net9.0/BusinessLogic.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/bin/Debug/net9.0/Library.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/bin/Debug/net9.0/BusinessLogic.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/bin/Debug/net9.0/Library.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.AssemblyReference.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.AssemblyInfoInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.AssemblyInfo.cs
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.CoreCompileInputs.cache
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.sourcelink.json
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.csproj.Up2Date
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/refint/Tests.dll
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/Tests.pdb
+/Users/maksimbelaev/Documents/3 Курс/SPP/Lab4/Solution1/Tests/obj/Debug/net9.0/ref/Tests.dll
