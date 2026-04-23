@@ -26,8 +26,7 @@ class Program
             var categoryAttr = item.Method.GetCustomAttribute<MyCategoryAttribute>();
             return categoryAttr != null && categoryAttr.Category == "Regression";
         };
-
-// 2. Применяем фильтр к списку собранных тестов
+        
         var filteredTests = testItems.Where(filter).ToList();
 
         Console.WriteLine($"Всего тестов: {testItems.Count}");
@@ -187,35 +186,17 @@ class Program
         var list = new List<TestItem>();
         foreach (var type in assembly.GetTypes().Where(t => t.GetCustomAttribute<MyTestClassAttribute>() != null))
         {
-            /*foreach (var method in type.GetMethods().Where(m => m.GetCustomAttribute<MyTestAttribute>() != null))
-            {
-                var cases = method.GetCustomAttributes<MyTestCaseAttribute>()
-                                  .Select(c => c.Params)
-                                  .DefaultIfEmpty(null)
-                                  .ToList();
-                foreach (var args in cases)
-                {
-                    string displayName = args == null
-                        ? method.Name
-                        : $"{method.Name}({string.Join(", ", args)})";
-                    list.Add(new TestItem(type, method, args, displayName));
-                }
-            }*/
             foreach (var method in type.GetMethods().Where(m => m.GetCustomAttribute<MyTestAttribute>() != null))
             {
-                // 1. Проверяем наличие стандартных тест-кейсов [MyTestCase]
                 var cases = method.GetCustomAttributes<MyTestCaseAttribute>().Select(c => c.Params).ToList();
-
-                // 2. ЛОГИКА ДЛЯ ЛР 4: Проверяем наличие [MyMethodDataSource]
+                
                 var dataSourceAttr = method.GetCustomAttribute<MyMethodDataSourceAttribute>();
                 if (dataSourceAttr != null)
                 {
-                    // Ищем в классе статический метод с именем, указанным в атрибуте
                     var sourceMethod = type.GetMethod(dataSourceAttr.MethodName, BindingFlags.Public | BindingFlags.Static);
         
                     if (sourceMethod != null)
                     {
-                        // Вызываем метод-итератор. Он возвращает IEnumerable<object[]>
                         var data = sourceMethod.Invoke(null, null) as IEnumerable<object[]>;
                         if (data != null)
                         {
@@ -226,9 +207,8 @@ class Program
                         }
                     }
                 }
-
-                // 3. Создаем записи TestItem для всех собранных данных
-                if (cases.Count == 0) // Если нет параметров вообще
+                
+                if (cases.Count == 0) 
                 {
                     list.Add(new TestItem(type, method, null, method.Name));
                 }
