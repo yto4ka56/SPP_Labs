@@ -21,7 +21,18 @@ class Program
         var assembly = Assembly.GetAssembly(typeof(DeliveryTests))!;
         var testItems= CollectTests(assembly);
         
+        Func<TestItem, bool> filter = item => 
+        {
+            var categoryAttr = item.Method.GetCustomAttribute<MyCategoryAttribute>();
+            return categoryAttr != null && categoryAttr.Category == "Regression";
+        };
+
+// 2. Применяем фильтр к списку собранных тестов
+        var filteredTests = testItems.Where(filter).ToList();
+
         Console.WriteLine($"Всего тестов: {testItems.Count}");
+        Console.WriteLine($"После фильтрации осталось тестов: {filteredTests.Count}");
+       
         Console.WriteLine("Настройки пула: min=2  max=8  idle=3000ms  hangTimeout=5000ms\n");
         
         using var pool = new CustomThreadPool(
@@ -32,20 +43,31 @@ class Program
             hangTimeoutMs: 5000,
             monitorIntervalMs: 500
         );
+        
+        pool.ThreadCreated += id => LogEvent($"[EVENT] Пул создал новый поток #{id}", ConsoleColor.Cyan);
+        pool.TaskStarted += name => LogEvent($"[EVENT] Начата работа над: {name}", ConsoleColor.Gray);
+        
+        static void LogEvent(string msg, ConsoleColor color) {
+            lock(_consoleLock) {
+                Console.ForegroundColor = color;
+                Console.WriteLine(msg);
+                Console.ResetColor();
+            }
+        }
 
         var sw = Stopwatch.StartNew();
 
         CustomThreadPool.Log("═══ ФАЗА 1: Одиночные подачи ═══", ConsoleColor.Magenta);
-        for (int i = 0; i < Math.Min(5, testItems.Count); i++)
+        for (int i = 0; i < Math.Min(5, filteredTests.Count); i++)
         {
-            EnqueueTest(pool, testItems[i]);
+            EnqueueTest(pool, filteredTests[i]);
             Thread.Sleep(300);
         }
 
         pool.WaitAll();
 
         CustomThreadPool.Log("\n═══ ФАЗА 2: Пиковая нагрузка (все тесты) ═══", ConsoleColor.Magenta);
-        foreach (var item in testItems)
+        foreach (var item in filteredTests)
             EnqueueTest(pool, item);
 
         pool.WaitAll();
@@ -165,7 +187,7 @@ class Program
         var list = new List<TestItem>();
         foreach (var type in assembly.GetTypes().Where(t => t.GetCustomAttribute<MyTestClassAttribute>() != null))
         {
-            foreach (var method in type.GetMethods().Where(m => m.GetCustomAttribute<MyTestAttribute>() != null))
+            /*foreach (var method in type.GetMethods().Where(m => m.GetCustomAttribute<MyTestAttribute>() != null))
             {
                 var cases = method.GetCustomAttributes<MyTestCaseAttribute>()
                                   .Select(c => c.Params)
@@ -177,6 +199,46 @@ class Program
                         ? method.Name
                         : $"{method.Name}({string.Join(", ", args)})";
                     list.Add(new TestItem(type, method, args, displayName));
+                }
+            }*/
+            foreach (var method in type.GetMethods().Where(m => m.GetCustomAttribute<MyTestAttribute>() != null))
+            {
+                // 1. Проверяем наличие стандартных тест-кейсов [MyTestCase]
+                var cases = method.GetCustomAttributes<MyTestCaseAttribute>().Select(c => c.Params).ToList();
+
+                // 2. ЛОГИКА ДЛЯ ЛР 4: Проверяем наличие [MyMethodDataSource]
+                var dataSourceAttr = method.GetCustomAttribute<MyMethodDataSourceAttribute>();
+                if (dataSourceAttr != null)
+                {
+                    // Ищем в классе статический метод с именем, указанным в атрибуте
+                    var sourceMethod = type.GetMethod(dataSourceAttr.MethodName, BindingFlags.Public | BindingFlags.Static);
+        
+                    if (sourceMethod != null)
+                    {
+                        // Вызываем метод-итератор. Он возвращает IEnumerable<object[]>
+                        var data = sourceMethod.Invoke(null, null) as IEnumerable<object[]>;
+                        if (data != null)
+                        {
+                            foreach (var paramRow in data)
+                            {
+                                cases.Add(paramRow); // Добавляем данные из yield return в общий список параметров
+                            }
+                        }
+                    }
+                }
+
+                // 3. Создаем записи TestItem для всех собранных данных
+                if (cases.Count == 0) // Если нет параметров вообще
+                {
+                    list.Add(new TestItem(type, method, null, method.Name));
+                }
+                else
+                {
+                    foreach (var args in cases)
+                    {
+                        string displayName = $"{method.Name}({string.Join(", ", args)})";
+                        list.Add(new TestItem(type, method, args, displayName));
+                    }
                 }
             }
         }

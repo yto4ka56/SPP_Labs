@@ -155,8 +155,9 @@ public class DeliveryTests
     {
         MyAssert.Throws<ArgumentException>(() => _manager.AddProduct("Ошибка", -100));
     }
-
+    
     [MyTest]
+    
     public void AddProduct_ZeroPrice() 
     {
         MyAssert.Throws<ArgumentException>(() => _manager.AddProduct("Ноль", 0));
@@ -197,5 +198,22 @@ public class DeliveryTests
     public void CalculateRoute_FeatureNotReady() 
     {
         MyAssert.IsTrue(false);
+    }
+    
+    
+    public static IEnumerable<object[]> GetPriceData()
+    {
+        yield return new object[] { 100, 150 };
+        yield return new object[] { 200, 250 };
+        yield return new object[] { 1000, 1050 };
+    }
+
+    [MyTest]
+    [MyMethodDataSource(nameof(GetPriceData))] 
+    [MyCategory("Regression")]                
+    public void TestWithYieldSource(int price, int expected)
+    {
+        _manager.AddProduct("Item", price);
+        MyAssert.AreEqual(expected, _manager.TotalAmount);
     }
 }

@@ -11,6 +11,11 @@ public sealed class CustomThreadPool : IDisposable
     private readonly int _hangTimeoutMs;          // время после которого поток считается зависшим
     private readonly int _monitorIntervalMs;      // интервал мониторинга
     
+    public event Action<int>? ThreadCreated; // Передает ID потока
+    public event Action<int>? ThreadTerminated;
+    public event Action<string>? TaskStarted; // Передает имя задачи
+    public event Action<string, bool>? TaskCompleted; // Имя и успех
+    
     private readonly ConcurrentQueue<WorkItem> _queue = new();
     private readonly Semaphore _workAvailable;  
     
@@ -96,6 +101,7 @@ public sealed class CustomThreadPool : IDisposable
         };
         worker.Thread = thread;
         thread.Start();
+        ThreadCreated?.Invoke(worker.Id); // Вызываем событие
     }
 
     private void WorkerLoop(WorkerThread worker)
@@ -126,14 +132,19 @@ public sealed class CustomThreadPool : IDisposable
                 continue;
 
             worker.StartWork(item.Name);
+            
+            TaskStarted?.Invoke(item.Name);
+            
             try
             {
                 item.Action();
                 worker.EndWork(success: true);
+                TaskCompleted?.Invoke(item.Name, true);
             }
             catch (Exception ex)
             {
                 worker.EndWork(success: false);
+                TaskCompleted?.Invoke(item.Name, false);
                 Log($"[ERROR] Поток {worker.Id}, задача '{item.Name}': {ex.Message}", ConsoleColor.Red);
             }
         }
